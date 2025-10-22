@@ -1,0 +1,57 @@
+{
+  "orgName": "Community Site Dev",
+  "edition": "Enterprise",
+  "language": "en_US",
+  "country": "US",
+  "hasSampleData": false,
+  "features": [
+    "AuthorApex",
+    "Communities",
+    "ExperienceBundle",
+    "Sites",
+    "ServiceCloud",
+    "Knowledge",
+    "CustomerCommunityPlus",
+    "PersonAccounts",
+    "Einstein1AIPlatform"
+  ],
+  "settings": {
+    "einsteinGptSettings": {
+      "enableEinsteinGptPlatform": true
+    },
+    "experienceBundleSettings": {
+      "enableExperienceBundleMetadata": true
+    },
+    "communitiesSettings": {
+      "enableNetworksEnabled": true
+    },
+    "knowledgeSettings": {
+      "enableKnowledge": true
+    },
+    "contentSettings": {
+      "enableContent": true
+    },
+    "languageSettings": {
+      "enableTranslationWorkbench": true
+    },
+    "chatterSettings": {
+      "enableChatter": true
+    },
+    "securitySettings": {
+      "enableAdminLoginAsAnyUser": true,
+      "sessionSettings": {
+        "enableCSRFOnGet": false
+      }
+    },
+    "emailAdministrationSettings": {
+      "enableComplianceBcc": false
+    },
+    "userManagementSettings": {
+      "enableNewProfileUI": true,
+      "enableUserRoles": true
+    },
+    "mobileSettings": {
+      "enableS1EncryptedStoragePref2": false
+    }
+  }
+}

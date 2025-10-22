@@ -1,0 +1,12 @@
+<template>
+    <div class="container">
+        <h1 class="greeting">{greeting}</h1>
+
+        <template if:true={isGuest}>
+            <div class="auth-links">
+                <a href="/login" class="slds-button slds-button_neutral">Login</a>
+                <a href="/SelfRegister" class="slds-button slds-button_brand">Register</a>
+            </div>
+        </template>
+    </div>
+</template>
