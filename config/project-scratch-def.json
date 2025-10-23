@@ -13,7 +13,8 @@
     "Knowledge",
     "CustomerCommunityPlus",
     "PersonAccounts",
-    "Einstein1AIPlatform"
+    "Einstein1AIPlatform",
+    "LiveMessage"
   ],
   "settings": {
     "einsteinCopilotSettings": {
