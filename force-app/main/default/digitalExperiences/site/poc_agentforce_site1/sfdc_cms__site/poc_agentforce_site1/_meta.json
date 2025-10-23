@@ -1,5 +1,5 @@
 {
-  "apiName" : "site_with_login1",
+  "apiName" : "poc_agentforce_site1",
   "type" : "sfdc_cms__site",
   "path" : ""
 }

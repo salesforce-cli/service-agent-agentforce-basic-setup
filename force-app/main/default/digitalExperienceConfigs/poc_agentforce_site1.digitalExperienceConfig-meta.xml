@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DigitalExperienceConfig xmlns="http://soap.sforce.com/2006/04/metadata">
-    <label>site-with-login</label>
+    <label>poc-agentforce-site</label>
     <site>
         <urlPathPrefix></urlPathPrefix>
     </site>
-    <space>site/site_with_login1</space>
+    <space>site/poc_agentforce_site1</space>
 </DigitalExperienceConfig>

@@ -6,7 +6,7 @@
     <communityRoles/>
     <disableReputationRecordConversations>true</disableReputationRecordConversations>
     <emailSenderAddress>harshankbansal@gmail.com</emailSenderAddress>
-    <emailSenderName>site-with-login</emailSenderName>
+    <emailSenderName>poc-agentforce-site</emailSenderName>
     <embeddedLoginEnabled>false</embeddedLoginEnabled>
     <enableApexCDNCaching>true</enableApexCDNCaching>
     <enableCustomVFErrorPageOverrides>false</enableCustomVFErrorPageOverrides>
@@ -63,11 +63,11 @@
         <loginPageOverrideSetting>Designer</loginPageOverrideSetting>
         <selfRegProfilePageOverrideSetting>Designer</selfRegProfilePageOverrideSetting>
     </networkPageOverrides>
-    <picassoSite>site_with_login1</picassoSite>
+    <picassoSite>poc_agentforce_site1</picassoSite>
     <selfRegProfile>Customer Community Plus User Cloned</selfRegProfile>
     <selfRegistration>true</selfRegistration>
     <sendWelcomeEmail>true</sendWelcomeEmail>
-    <site>site_with_login</site>
+    <site>poc_agentforce_site</site>
     <siteArchiveStatus>NotArchived</siteArchiveStatus>
     <status>Live</status>
     <tabs>
