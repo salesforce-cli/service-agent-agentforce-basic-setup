@@ -16,6 +16,9 @@
     "Einstein1AIPlatform"
   ],
   "settings": {
+    "einsteinCopilotSettings": {
+      "enableEinsteinGptCopilot": true
+    },
     "einsteinGptSettings": {
       "enableEinsteinGptPlatform": true
     },
