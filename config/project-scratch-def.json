@@ -47,8 +47,7 @@
       "enableComplianceBcc": false
     },
     "userManagementSettings": {
-      "enableNewProfileUI": true,
-      "enableUserRoles": true
+      "enableNewProfileUI": true
     },
     "mobileSettings": {
       "enableS1EncryptedStoragePref2": false

@@ -2,7 +2,16 @@
 <Audience xmlns="http://soap.sforce.com/2006/04/metadata">
     <audienceName>Default</audienceName>
     <container>poc-agentforce-site</container>
-    <criteria/>
+    <criteria>
+        <criterion>
+            <criteriaNumber>1</criteriaNumber>
+            <criterionValue>
+                <profile>Customer Community Plus User Cloned</profile>
+            </criterionValue>
+            <operator>Equal</operator>
+            <type>Profile</type>
+        </criterion>
+    </criteria>
     <formulaFilterType>AllCriteriaMatch</formulaFilterType>
     <isDefaultAudience>true</isDefaultAudience>
 </Audience>
