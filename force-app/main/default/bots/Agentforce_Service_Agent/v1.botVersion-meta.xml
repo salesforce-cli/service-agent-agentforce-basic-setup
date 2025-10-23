@@ -6,13 +6,13 @@
         <botSteps>
             <botMessages>
                 <message>Hi, I&apos;m an AI service assistant. How can I help you?</message>
-                <messageIdentifier>302a79f2-5350-4cac-be47-4c85d93627a5</messageIdentifier>
+                <messageIdentifier>edf1b824-0582-4975-8995-785e815b3916</messageIdentifier>
             </botMessages>
-            <stepIdentifier>f49e6924-0eed-4c5d-a001-2468b816c068</stepIdentifier>
+            <stepIdentifier>6bd38cb1-f047-49c8-8f28-701955997c28</stepIdentifier>
             <type>Message</type>
         </botSteps>
         <botSteps>
-            <stepIdentifier>b11daad4-3dc1-4f7b-a455-a7355d4406dc</stepIdentifier>
+            <stepIdentifier>08d60293-6f94-410c-97a4-5512c9f964db</stepIdentifier>
             <type>Wait</type>
         </botSteps>
         <developerName>Welcome</developerName>
@@ -24,13 +24,13 @@
         <botSteps>
             <botMessages>
                 <message>Sorry, it looks like something has gone wrong.</message>
-                <messageIdentifier>e294505b-eda8-4404-9e81-09a9c8ecb8cf</messageIdentifier>
+                <messageIdentifier>7fe2fe6c-ddbe-4694-93c9-2aa8be9e8ea1</messageIdentifier>
             </botMessages>
-            <stepIdentifier>409e9f4c-b881-4081-80db-200ed69aacc9</stepIdentifier>
+            <stepIdentifier>0e2feea0-9c43-4ba7-9d39-8351738fab44</stepIdentifier>
             <type>Message</type>
         </botSteps>
         <botSteps>
-            <stepIdentifier>29439fc7-e607-4d16-960c-be73ac030770</stepIdentifier>
+            <stepIdentifier>f9b2a064-1a15-4736-be18-55f44caeb2b3</stepIdentifier>
             <type>Wait</type>
         </botSteps>
         <developerName>Error_Handling</developerName>
@@ -42,16 +42,16 @@
         <botSteps>
             <botMessages>
                 <message>One moment while I connect you to the next available service representative.</message>
-                <messageIdentifier>5e936ea6-b98b-44f1-9302-81a1e92cb0b2</messageIdentifier>
+                <messageIdentifier>78147511-f894-4124-b10f-45fe43b12027</messageIdentifier>
             </botMessages>
-            <stepIdentifier>5736c833-30ab-43dc-a1de-4cf204641410</stepIdentifier>
+            <stepIdentifier>7c8cbc18-241f-4075-8c5a-dd75b1b1f326</stepIdentifier>
             <type>Message</type>
         </botSteps>
         <botSteps>
             <conversationSystemMessage>
                 <type>Transfer</type>
             </conversationSystemMessage>
-            <stepIdentifier>e40092c7-2313-4840-aab1-61d70b86b824</stepIdentifier>
+            <stepIdentifier>09d35c81-7118-4d88-98b8-8cf11d4b303e</stepIdentifier>
             <type>SystemMessage</type>
         </botSteps>
         <developerName>Transfer_To_Agent</developerName>
@@ -60,37 +60,47 @@
         <showInFooterMenu>false</showInFooterMenu>
     </botDialogs>
     <citationsEnabled>false</citationsEnabled>
-    <company>DemoSure Insurance is a leading provider of auto, health, and home insurance solutions. The company focuses on delivering fast, reliable, and transparent coverage options tailored to individual and family needs. With prioritizing customer satisfaction</company>
+    <company>InfiniDesk IT Support provides dedicated technical assistance to employees across the organization. With a focus on quick and reliable service, InfiniDesk ensures uninterrupted productivity and secure access to company resources</company>
     <conversationDefinitionPlanners>
         <genAiPlannerName>Agentforce_Service_Agent</genAiPlannerName>
     </conversationDefinitionPlanners>
     <conversationVariables>
         <dataType>Text</dataType>
+        <description>Stores the authentication key that&apos;s used to generate the verification code.</description>
         <developerName>authenticationKey</developerName>
+        <includeInPrompt>false</includeInPrompt>
         <label>authenticationKey</label>
         <visibility>Internal</visibility>
     </conversationVariables>
     <conversationVariables>
         <dataType>Text</dataType>
+        <description>Stores the Salesforce user ID or contact ID.</description>
         <developerName>customerId</developerName>
+        <includeInPrompt>false</includeInPrompt>
         <label>customerId</label>
         <visibility>Internal</visibility>
     </conversationVariables>
     <conversationVariables>
         <dataType>Text</dataType>
+        <description>Stores the customer ID type, whether it&apos;s a Salesforce user or a contact.</description>
         <developerName>customerType</developerName>
+        <includeInPrompt>false</includeInPrompt>
         <label>customerType</label>
         <visibility>Internal</visibility>
     </conversationVariables>
     <conversationVariables>
         <dataType>Boolean</dataType>
+        <description>Stores a boolean value that indicates whether the customer code is verified.</description>
         <developerName>isVerified</developerName>
+        <includeInPrompt>false</includeInPrompt>
         <label>isVerified</label>
         <visibility>Internal</visibility>
     </conversationVariables>
     <conversationVariables>
         <dataType>Text</dataType>
+        <description>This variable may also be referred to as VerifiedCustomerId</description>
         <developerName>VerifiedCustomerId</developerName>
+        <includeInPrompt>false</includeInPrompt>
         <label>VerifiedCustomerId</label>
         <visibility>Internal</visibility>
     </conversationVariables>
@@ -101,5 +111,8 @@
     <knowledgeFallbackEnabled>false</knowledgeFallbackEnabled>
     <role>An AI customer service agent whose job is to help customers with support questions or other issues.</role>
     <smallTalkEnabled>false</smallTalkEnabled>
+    <stopRecPrompts>false</stopRecPrompts>
+    <stopWelcomePrompts>false</stopWelcomePrompts>
+    <surfacesEnabled>false</surfacesEnabled>
     <toneType>Casual</toneType>
 </BotVersion>
