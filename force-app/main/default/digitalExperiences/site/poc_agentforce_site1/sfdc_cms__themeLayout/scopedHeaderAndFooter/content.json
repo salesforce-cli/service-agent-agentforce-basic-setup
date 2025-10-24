@@ -41,6 +41,18 @@
       }, {
         "children" : [ {
           "attributes" : {
+            "clientVersion" : "WebV1",
+            "deploymentName" : "Agentforce_POC_chat",
+            "hideChatButtonOnLoad" : "Default",
+            "isExpSiteAuthMode" : false,
+            "scrtUrl" : "https://al1759132157068--devsimple.sandbox.my.salesforce-scrt.com",
+            "siteEndpoint" : "https://al1759132157068--devsimple.sandbox.my.site.com/ESWAgentforcePOCchat1761293721689"
+          },
+          "definition" : "experience_messaging:embeddedMessaging",
+          "id" : "982eafd9-c5a6-498b-899d-7c01116524fe",
+          "type" : "component"
+        }, {
+          "attributes" : {
             "backgroundImageConfig" : "",
             "backgroundImageOverlay" : "rgba(0,0,0,0)",
             "componentSpacerSize" : "",

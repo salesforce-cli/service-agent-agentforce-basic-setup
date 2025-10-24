@@ -21,9 +21,23 @@
           },
           "children" : [ {
             "children" : [ {
-              "attributes" : { },
+              "attributes" : {
+                "dxpStyle" : { }
+              },
               "definition" : "c:helloHome",
               "id" : "92e6648e-3b50-4d03-b2a2-cc9ee8479326",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "clientVersion" : "WebV1",
+                "deploymentName" : "Agentforce_POC_chat",
+                "hideChatButtonOnLoad" : "Default",
+                "isExpSiteAuthMode" : false,
+                "scrtUrl" : "https://al1759132157068--devsimple.sandbox.my.salesforce-scrt.com",
+                "siteEndpoint" : "https://al1759132157068--devsimple.sandbox.my.site.com/ESWAgentforcePOCchat1761293721689"
+              },
+              "definition" : "experience_messaging:embeddedMessaging",
+              "id" : "c711c5bd-af71-476e-a648-815329434089",
               "type" : "component"
             } ],
             "id" : "88f06df7-1b4e-42a5-b473-2bc718442aaf",

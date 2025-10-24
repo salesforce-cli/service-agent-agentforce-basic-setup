@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DigitalExperienceConfig xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>ESW_Agentforce_POC_chat_1761293721689</label>
+    <site>
+        <urlPathPrefix>ESWAgentforcePOCchat1761293721689</urlPathPrefix>
+    </site>
+    <space>site/ESW_Agentforce_POC_chat_17612937216891</space>
+</DigitalExperienceConfig>
