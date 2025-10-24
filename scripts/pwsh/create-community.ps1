@@ -1,27 +1,34 @@
+param (
+    [string]$TargetOrg
+)
+
 $ErrorActionPreference = "Stop"
 
-Write-Host "Creating Experience Cloud site using Salesforce CLI..." -ForegroundColor Cyan
+Write-Host "Creating Experience Cloud site using Salesforce CLI in $TargetOrg..." -ForegroundColor Cyan
 
 # Create the Experience Cloud site
 Write-Host "Creating Network..." -ForegroundColor Yellow
-sf network create --name "Community Site" --status "Live" --url-path-prefix "community" --self-registration-enable
-
-Write-Host "Creating Site..." -ForegroundColor Yellow
-sf site create --name "Community_Site" --type "BuildYourOwn" --subdomain "community-site" --url-path-prefix "community"
-
-Write-Host "Creating Experience Bundle..." -ForegroundColor Yellow
-sf experience-bundle create --name "Community_Site_LWR" --type "LWR"
-
-Write-Host "Creating Home Page..." -ForegroundColor Yellow
-sf experience-page create --name "home" --bundle "Community_Site_LWR" --template "home"
-
-Write-Host "Deploying LWC Component..." -ForegroundColor Yellow
-sf project deploy start --source-dir "force-app/main/default/lwc/helloHome"
-
-Write-Host "Assigning permissions..." -ForegroundColor Yellow
-sf permission-set assign --name "Community_Site_Permissions"
+sf project deploy start `
+    --source-dir force-app/main/default/digitalExperiences `
+    --source-dir force-app/main/default/digitalExperienceConfigs `
+    --source-dir force-app/main/default/networks `
+    --source-dir force-app/main/default/networkBranding `
+    --source-dir force-app/main/default/audience `
+    --source-dir force-app/main/default/sites `
+    --source-dir force-app/main/default/aura `
+    --source-dir force-app/main/default/pages `
+    --source-dir force-app/main/default/classes `
+    --source-dir "force-app/main/default/profiles/poc-agentforce-site Profile.profile-meta.xml" `
+    --source-dir "force-app/main/default/profiles/Customer Community Plus User Cloned.profile-meta.xml" `
+    --source-dir force-app/main/default/lwc `
+    --source-dir force-app/main/default/profiles `
+    --target-org $TargetOrg
 
 Write-Host "Publishing site..." -ForegroundColor Yellow
-sf community publish --name "poc-agentforce-site"
+sf community publish `
+    --name "poc-agentforce-site" `
+    --target-org $TargetOrg
 
 Write-Host "Done!" -ForegroundColor Green
+
+

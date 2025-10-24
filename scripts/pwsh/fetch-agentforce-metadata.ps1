@@ -1,7 +1,11 @@
+param (
+    [string]$TargetOrg
+)
+
 $ErrorActionPreference = "Stop"
 
 sf project retrieve start `
-    --target-org community-scratch2 `
+    --target-org $TargetOrg `
     --metadata Bot `
     --metadata BotVersion `
     --metadata GenAiPlannerBundle `

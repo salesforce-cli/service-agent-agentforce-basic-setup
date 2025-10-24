@@ -23,8 +23,9 @@
     <redirectToCustomDomain>false</redirectToCustomDomain>
     <referrerPolicyOriginWhenCrossOrigin>true</referrerPolicyOriginWhenCrossOrigin>
     <selfRegPage>CommunitiesSelfReg</selfRegPage>
-    <siteAdmin>test-dwyptnk08l0a@example.com</siteAdmin>
-    <siteGuestRecordDefaultOwner>test-dwyptnk08l0a@example.com</siteGuestRecordDefaultOwner>
+    <serverIsDown>SNA_VCObQ_sf_default_cdn_poc_agentforce_site1</serverIsDown>
+    <siteAdmin>2gp@playgrounds.hb</siteAdmin>
+    <siteGuestRecordDefaultOwner>2gp@playgrounds.hb</siteGuestRecordDefaultOwner>
     <siteType>ChatterNetwork</siteType>
     <urlPathPrefix>vforcesite</urlPathPrefix>
 </CustomSite>
