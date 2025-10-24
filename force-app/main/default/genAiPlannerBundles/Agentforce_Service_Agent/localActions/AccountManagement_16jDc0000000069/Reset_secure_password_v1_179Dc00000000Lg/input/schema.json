@@ -1,0 +1,14 @@
+{
+  "required" : [ "verifiedContactID" ],
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "verifiedContactID" : {
+      "title" : "verifiedContactID",
+      "description" : "Get verified contact ID from verification topic.",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}
