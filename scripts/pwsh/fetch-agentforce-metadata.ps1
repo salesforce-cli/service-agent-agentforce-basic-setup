@@ -11,18 +11,4 @@ sf project retrieve start `
     --metadata GenAiPlannerBundle `
     --metadata GenAiPlugin `
     --metadata GenAiFunction `
-    --metadata PermissionSetGroup
-    --metadata PermissionSet:sfdc_aiplanner_service_permset `
-    --metadata PermissionSet:Agentforce_Service_Agent_Permissions `
-    --metadata PermissionSet:sfdc_chatbot_service_permset
-
-# sf project retrieve start `
-#     --target-org $TargetOrg `
-#     --metadata Bot `
-#     --metadata BotVersion `
-#     --metadata GenAiPlanner `
-#     --metadata GenAiPlugin `
-#     --metadata GenAiFunction `
-#     --metadata PermissionSet:sfdc_aiplanner_service_permset `
-#     --metadata PermissionSet:Agentforce_Service_Agent_Permissions `
-#     --metadata PermissionSet:sfdc_chatbot_service_permset
+    --metadata PermissionSet:Agentforce_Service_Agent_Permissions
